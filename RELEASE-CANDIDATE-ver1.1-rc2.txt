@@ -1,0 +1,10 @@
+JAKTLAGSAPPEN ver1.1-rc2
+
+Bas: verifierad ver1.1-rc1 med avskjutningsmal i Supabase.
+
+Enda korrigeringen:
+- Passfordelningens Lagga i chatten skriver nu via samma KatterumsCloud.upsertMessage som den vanliga Supabase-chatten.
+- Efter lyckad publicering hamtas chatten om och Hem uppdateras.
+- Passfordelningen sparas fortsatt som aktuell tilldelning for Jaktdag.
+
+Ingen ny SQL behovs. Kalender, vanlig chatt, Information, avskjutningsmal och ovrig funktionalitet ar oforandrade.
